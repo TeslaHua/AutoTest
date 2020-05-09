@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name = "parameterSuite">
+    <test name = "parameter">
+        <classes>
+
+            <parameter name="name" value="TeslaHua" />
+            <parameter name="age" value="27" />
+
+            <class name="com.maoyan.testng.parameter.ParameterTest"></class>
+        </classes>
+    </test>
+</suite>

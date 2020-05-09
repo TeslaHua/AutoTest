@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name = "groupsSuite">
+    <!-- 会执行所有类组中的测试方法 -->
+    <test name = "runAll">
+        <classes>
+            <class name = "com.maoyan.testng.groups.GroupsOnClass1"></class>
+            <class name = "com.maoyan.testng.groups.GroupsOnClass2"></class>
+            <class name = "com.maoyan.testng.groups.GroupsOnClass3"></class>
+        </classes>
+    </test>
+
+    <test name = "onlyRunStudent">
+        <!-- 只会执行student组中的测试方法 -->
+        <groups>
+            <run>
+                <include name = "student"/>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="com.maoyan.testng.groups.GroupsOnClass1"></class>
+            <class name="com.maoyan.testng.groups.GroupsOnClass2"></class>
+            <class name="com.maoyan.testng.groups.GroupsOnClass3"></class>
+        </classes>
+    </test>
+</suite>
