@@ -1,0 +1,11 @@
+[
+  {
+    "description": "这是我们的第一个Mock",
+    "request": {
+      "uri": "/demo"
+    },
+    "response": {
+      "json": "第一个Mock框架Demo"
+    }
+  }
+]

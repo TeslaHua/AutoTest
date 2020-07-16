@@ -2,54 +2,317 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15e44110-c036-4617-a282-bca8537b7910" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_48.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_6_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter5/Chapter5.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter5/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter5/src/main/java/com/maoyan/testng/BasicAnnotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter5/src/main/java/com/maoyan/testng/DependTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter5/src/main/java/com/maoyan/testng/ExpectedException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter5/src/main/java/com/maoyan/testng/IgnoreTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter5/src/main/java/com/maoyan/testng/TimeOutTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter5/src/main/java/com/maoyan/testng/groups/GroupsOnClass1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter5/src/main/java/com/maoyan/testng/groups/GroupsOnClass2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter5/src/main/java/com/maoyan/testng/groups/GroupsOnClass3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter5/src/main/java/com/maoyan/testng/groups/GroupsOnMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter5/src/main/java/com/maoyan/testng/multiThread/MultiThreadOnAnnotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter5/src/main/java/com/maoyan/testng/multiThread/MultiThreadOnXml.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter5/src/main/java/com/maoyan/testng/parameter/DataProviderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter5/src/main/java/com/maoyan/testng/parameter/ParameterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter5/src/main/java/com/maoyan/testng/suite/LoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter5/src/main/java/com/maoyan/testng/suite/PayTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter5/src/main/java/com/maoyan/testng/suite/SuiteConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter5/src/main/resources/MultiThreadOnXml.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter5/src/main/resources/groupsOnClass.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter5/src/main/resources/parameter.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter5/src/main/resources/suite.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_71.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_72.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_aventstack_extentreports_3_0_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_20_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_relevantcodes_extentreports_2_41_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vimalselvam_testng_extentsreport_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_core_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_schema_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spi_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spring_web_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger2_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_common_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_models_1_5_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_46.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_18_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20190722.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20200518.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jsoup_jsoup_1_8_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mapstruct_mapstruct_1_2_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_bson_3_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_3_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_core_3_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_1_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_metadata_1_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xerial_sqlite_jdbc_3_28_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter10/Chapter10.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter10/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter10/src/main/java/SpringBootApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter10/src/main/java/com/maoyan/Config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter10/src/main/java/com/maoyan/Server/MyGetController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter10/src/main/java/com/maoyan/Server/MyPostController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter10/src/main/java/com/maoyan/bean/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter10/src/main/java/com/maoyan/helloSpringBoot/SampleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter10/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter11/Chapter11.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter11/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter11/src/main/java/com/maoyan/controller/mybatiscontroller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter11/src/main/java/com/maoyan/mybatis/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter11/src/main/java/com/maoyan/mybatisApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter11/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter11/src/main/resources/lomback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter11/src/main/resources/mapper/mysql.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter11/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter12/Chapter12.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter12/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter12/src/main/java/com/maoyan/cases/AddUserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter12/src/main/java/com/maoyan/cases/GetUserInfoListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter12/src/main/java/com/maoyan/cases/GetUserInfoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter12/src/main/java/com/maoyan/cases/LoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter12/src/main/java/com/maoyan/cases/UpdateUserInfoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter12/src/main/java/com/maoyan/config/ExtentTestNGIReporterListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter12/src/main/java/com/maoyan/config/TestConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter12/src/main/java/com/maoyan/model/AddUserCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter12/src/main/java/com/maoyan/model/GetUserInfoCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter12/src/main/java/com/maoyan/model/GetUserListCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter12/src/main/java/com/maoyan/model/InterfaceName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter12/src/main/java/com/maoyan/model/LoginCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter12/src/main/java/com/maoyan/model/UpdateUserInfoCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter12/src/main/java/com/maoyan/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter12/src/main/java/com/maoyan/utils/ConfigFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter12/src/main/java/com/maoyan/utils/DatabaseUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter12/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter12/src/main/resources/databaseConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter12/src/main/resources/mapper/MySQLMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter12/src/main/resources/testng.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter13/Chapter13.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter13/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter13/src/main/java/com/maoyan/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter13/src/main/java/com/maoyan/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter13/src/main/java/com/maoyan/controller/userManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter13/src/main/java/com/maoyan/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter13/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter13/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter13/src/main/resources/mapper/mysql.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter13/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter6/Chapter6.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter6/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter6/src/main/java/com/maoyan/extentreport/ExtentTestNGIReporterListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter6/src/main/java/com/maoyan/extentreport/ExtentTestNGIReporterListenerOld.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter6/src/main/java/com/maoyan/extentreport/TestMethodsDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter6/src/main/resources/extentreport.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter6/test-output/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter7/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter7/moco-runner-0.11.0-standalone.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter7/startup1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter7/startupGet.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter7/startupPost.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter7/startupWithCookies.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter7/startupWithHeaders.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter7/startupWithRedirect.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter9/Chapter9.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter9/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter9/src/main/java/com/maoyan/httpclient/Basic/MyHttpClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter9/src/main/java/com/maoyan/httpclient/cookies/MyCookiesForGet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter9/src/main/java/com/maoyan/httpclient/cookies/MyCookiesForPost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter9/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/AutoTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/AutoTest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter5/Chapter5.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter5/Chapter5.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter5/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter5/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/autotest/target/" />
     <ignored path="$PROJECT_DIR$/Chapter5/target/" />
+    <ignored path="$PROJECT_DIR$/Chapter6/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/Chapter9/target/" />
+    <ignored path="$PROJECT_DIR$/Chapter10/target/" />
+    <ignored path="$PROJECT_DIR$/Chapter11/target/" />
+    <ignored path="$PROJECT_DIR$/Chapter12/target/" />
+    <ignored path="$PROJECT_DIR$/Chapter13/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
   <component name="ErrorTreeViewConfiguration">
     <option name="autoscrollToSource" value="true" />
+    <option name="hideWarnings" value="true" />
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="true" />
+    <option name="HIDE_WARNINGS" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Chapter13/src/main/resources/mapper/mysql.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="27" column="41" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Chapter13/src/main/java/com/maoyan/Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Chapter13/src/main/java/com/maoyan/controller/userManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1340">
+              <caret line="82" column="39" selection-start-line="82" selection-start-column="39" selection-end-line="82" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Chapter13/src/main/java/com/maoyan/config/SwaggerConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="202">
+              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Chapter12/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="88" column="40" selection-start-line="88" selection-start-column="40" selection-end-line="88" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Chapter12/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Chapter12/src/main/resources/mapper/MySQLMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="516">
+              <caret line="42" column="46" selection-start-line="42" selection-start-column="46" selection-end-line="42" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Chapter13/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-119">
+              <caret line="81" column="40" selection-start-line="81" selection-start-column="40" selection-end-line="81" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Chapter12/src/main/java/com/maoyan/cases/GetUserInfoListTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="37" column="57" selection-start-line="37" selection-start-column="57" selection-end-line="37" selection-end-column="57" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Tag Library Descriptor" />
+        <option value="HTML File" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -61,29 +324,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/autotest/pom.xml" />
-        <option value="$PROJECT_DIR$/Chapter5/pom.xml" />
-        <option value="$PROJECT_DIR$/Chapter5/src/main/java/com/maoyan/testng/suite/LoginTest.java" />
-        <option value="$PROJECT_DIR$/Chapter5/src/main/java/com/maoyan/testng/suite/SuiteConfig.java" />
-        <option value="$PROJECT_DIR$/Chapter5/src/main/resources/suite.xml" />
-        <option value="$PROJECT_DIR$/Chapter5/src/main/java/com/maoyan/testng/suite/PayTest.java" />
-        <option value="$PROJECT_DIR$/Chapter5/src/main/java/com/maoyan/testng/BasicAnnotation.java" />
-        <option value="$PROJECT_DIR$/Chapter5/src/main/java/com/maoyan/testng/IgnoreTest.java" />
-        <option value="$PROJECT_DIR$/Chapter5/src/main/java/com/maoyan/testng/groups/GroupsOnMethod.java" />
-        <option value="$PROJECT_DIR$/Chapter5/src/main/java/com/maoyan/testng/groups/GroupsOnClass1.java" />
-        <option value="$PROJECT_DIR$/Chapter5/src/main/java/com/maoyan/testng/groups/GroupsOnClass2.java" />
-        <option value="$PROJECT_DIR$/Chapter5/src/main/java/com/maoyan/testng/groups/GroupsOnClass3.java" />
-        <option value="$PROJECT_DIR$/Chapter5/src/main/resources/groupsOnClass.xml" />
-        <option value="$PROJECT_DIR$/Chapter5/src/main/java/com/maoyan/testng/ExpectedException.java" />
-        <option value="$PROJECT_DIR$/Chapter5/src/main/java/com/maoyan/testng/DependTest.java" />
-        <option value="$PROJECT_DIR$/Chapter5/src/main/resources/parameter.xml" />
-        <option value="$PROJECT_DIR$/Chapter5/src/main/java/com/maoyan/testng/parameter/ParameterTest.java" />
-        <option value="$PROJECT_DIR$/Chapter5/src/main/java/com/maoyan/testng/parameter/DataProviderTest.java" />
-        <option value="$PROJECT_DIR$/Chapter5/src/main/java/com/maoyan/testng/multiThread/MultiThreadOnAnnotation.java" />
-        <option value="$PROJECT_DIR$/Chapter5/src/main/resources/MultiThreadOnXml" />
-        <option value="$PROJECT_DIR$/Chapter5/src/main/java/com/maoyan/testng/multiThread/MultiThreadOnXml.java" />
-        <option value="$PROJECT_DIR$/Chapter5/src/main/resources/MultiThreadOnXml.xml" />
-        <option value="$PROJECT_DIR$/Chapter5/src/main/java/com/maoyan/testng/TimeOutTest.java" />
+        <option value="$PROJECT_DIR$/Chapter9/src/main/resources/application.yaml" />
+        <option value="$PROJECT_DIR$/Chapter9/src/main/java/com/maoyan/httpclient/cookies/MyCookiesForGet.java" />
+        <option value="$PROJECT_DIR$/Chapter7/README.md" />
+        <option value="$PROJECT_DIR$/Chapter9/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/Chapter9/pom.xml" />
+        <option value="$PROJECT_DIR$/Chapter7/startupWithCookies.json" />
+        <option value="$PROJECT_DIR$/Chapter9/src/main/java/com/maoyan/httpclient/cookies/MyCookiesForPost.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/Chapter10/src/main/java/com/maoyan/helloSpringBoot/SampleController.java" />
+        <option value="$PROJECT_DIR$/Chapter10/src/main/java/com/maoyan/Server/MyController.java" />
+        <option value="$PROJECT_DIR$/Chapter10/src/main/java/com/maoyan/SpringBootApplication.java" />
+        <option value="$PROJECT_DIR$/Chapter10/src/main/java/SpringBootApplication.java" />
+        <option value="$PROJECT_DIR$/Chapter10/src/main/java/com/maoyan/Config/SwaggerConfig.java" />
+        <option value="$PROJECT_DIR$/Chapter10/src/main/java/com/maoyan/Server/MyGetController.java" />
+        <option value="$PROJECT_DIR$/Chapter10/src/main/java/com/maoyan/bean/User.java" />
+        <option value="$PROJECT_DIR$/Chapter10/pom.xml" />
+        <option value="$PROJECT_DIR$/Chapter10/src/main/java/com/maoyan/Server/MyPostController.java" />
+        <option value="$PROJECT_DIR$/Chapter11/pom.xml" />
+        <option value="$PROJECT_DIR$/Chapter11/src/main/resources/lomback.xml" />
+        <option value="$PROJECT_DIR$/Chapter11/src/main/resources/mybatis-config.xml" />
+        <option value="$PROJECT_DIR$/Chapter11/src/main/resources/application.yaml" />
+        <option value="$PROJECT_DIR$/Chapter11/src/main/java/com/maoyan/mybatis/User.java" />
+        <option value="$PROJECT_DIR$/Chapter11/src/main/resources/mapper/mysql.xml" />
+        <option value="$PROJECT_DIR$/Chapter11/src/main/java/com/maoyan/controller/mybatiscontroller.java" />
+        <option value="$PROJECT_DIR$/Chapter11/src/main/java/com/maoyan/mybatisApplication.java" />
+        <option value="$PROJECT_DIR$/Chapter12/src/main/resources/databaseCongfig.xml" />
+        <option value="$PROJECT_DIR$/Chapter12/src/main/resources/testng.xml" />
+        <option value="$PROJECT_DIR$/Chapter12/src/main/java/com/maoyan/model/User.java" />
+        <option value="$PROJECT_DIR$/Chapter12/src/main/java/com/maoyan/model/AddUserCase.java" />
+        <option value="$PROJECT_DIR$/Chapter12/src/main/java/com/maoyan/model/UpdateUserInfoCase.java" />
+        <option value="$PROJECT_DIR$/Chapter12/src/main/java/com/maoyan/config/ExtentTestNGIReporterListener.java" />
+        <option value="$PROJECT_DIR$/Chapter12/src/main/java/com/maoyan/utils/DatabaseUtil.java" />
+        <option value="$PROJECT_DIR$/Chapter12/src/main/java/com/maoyan/utils/ConfigFile.java" />
+        <option value="$PROJECT_DIR$/Chapter12/pom.xml" />
+        <option value="$PROJECT_DIR$/Chapter12/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/Chapter12/src/main/resources/databaseConfig.xml" />
+        <option value="$PROJECT_DIR$/Chapter13/src/main/resources/mybatis-config.xml" />
+        <option value="$PROJECT_DIR$/Chapter13/src/main/java/com/maoyan/Application.java" />
+        <option value="$PROJECT_DIR$/Chapter13/src/main/java/com/maoyan/model/User.java" />
+        <option value="$PROJECT_DIR$/Chapter13/src/main/java/com/maoyan/controller/userManager.java" />
+        <option value="$PROJECT_DIR$/Chapter13/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/Chapter12/src/main/java/com/maoyan/config/TestConfig.java" />
+        <option value="$PROJECT_DIR$/Chapter12/src/main/java/com/maoyan/cases/LoginTest.java" />
+        <option value="$PROJECT_DIR$/Chapter12/src/main/java/com/maoyan/cases/AddUserTest.java" />
+        <option value="$PROJECT_DIR$/Chapter13/src/main/java/com/maoyan/config/SwaggerConfig.java" />
+        <option value="$PROJECT_DIR$/Chapter13/src/main/resources/mapper/mysql.xml" />
+        <option value="$PROJECT_DIR$/Chapter12/src/main/java/com/maoyan/cases/GetUserInfoTest.java" />
+        <option value="$PROJECT_DIR$/Chapter12/src/main/resources/mapper/MySQLMapper.xml" />
+        <option value="$PROJECT_DIR$/Chapter12/src/main/java/com/maoyan/cases/UpdateUserInfoTest.java" />
+        <option value="$PROJECT_DIR$/Chapter12/src/main/java/com/maoyan/cases/GetUserInfoListTest.java" />
+        <option value="$PROJECT_DIR$/Chapter13/pom.xml" />
       </list>
     </option>
   </component>
@@ -100,10 +391,26 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Chapter13" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Chapter13" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="678" />
+    <option name="x" value="217" />
+    <option name="y" value="82" />
+    <option name="width" value="906" />
     <option name="height" value="735" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -115,7 +422,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -126,55 +432,58 @@
             <path>
               <item name="AutoTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="AutoTest" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter5" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter12" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AutoTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="AutoTest" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter5" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutoTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutoTest" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter5" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutoTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutoTest" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter5" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutoTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutoTest" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter5" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter12" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.2482412" />
     <property name="project.structure.side.proportion" value="0.4551887" />
-    <property name="settings.editor.selected.configurable" value="terminal" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalResources" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IntelliJ IDEA\IDEA_Projects\Java接口自动化测试-课程代码\AutoTest\Chapter13\src\main\resources" />
+      <recent name="D:\IntelliJ IDEA\IDEA_Projects\Java接口自动化测试-课程代码\AutoTest\Chapter12\src\main\java\com\maoyan\model" />
+      <recent name="D:\IntelliJ IDEA\IDEA_Projects\Java接口自动化测试-课程代码\AutoTest\Chapter7" />
+      <recent name="D:\IntelliJ IDEA\IDEA_Projects\Java接口自动化测试-课程代码\AutoTest\Chapter6\src\main\java\com\maoyan\extentreport" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.maoyan.httpclient.Basic" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IntelliJ IDEA\IDEA_Projects\Java接口自动化测试-课程代码\AutoTest\Chapter11\src\main\resources" />
+      <recent name="D:\IntelliJ IDEA\IDEA_Projects\Java接口自动化测试-课程代码\AutoTest" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -188,80 +497,63 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TimeOutTest">
-    <configuration name="D:/IntelliJ IDEA/IDEA_Projects/Java接口自动化测试-课程代码/AutoTest/Chapter5/src/main/resources/MultiThreadOnXml.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Chapter5" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/Chapter5/src/main/resources/MultiThreadOnXml.xml" />
+  <component name="RunManager" selected="TestNG.D:/IntelliJ IDEA/IDEA_Projects/Java接口自动化测试-课程代码/AutoTest/Chapter12/src/main/resources/testng.xml">
+    <configuration name="mybatisApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.maoyan.mybatisApplication" />
+      <module name="Chapter11" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.maoyan.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="Chapter13" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.maoyan.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.maoyan.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBootApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="Chapter10" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="SpringBootApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="mybatisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="Chapter11" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.maoyan.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.maoyan.mybatisApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="D:/IntelliJ IDEA/IDEA_Projects/Java接口自动化测试-课程代码/AutoTest/Chapter12/src/main/resources/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Chapter12" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/Chapter12/src/main/resources/testng.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DataProviderTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Chapter5" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.maoyan.testng.parameter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.maoyan.testng.parameter" />
-      <option name="MAIN_CLASS_NAME" value="com.maoyan.testng.parameter.DataProviderTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DataProviderTest.test1" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Chapter5" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.maoyan.testng.parameter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.maoyan.testng.parameter" />
-      <option name="MAIN_CLASS_NAME" value="com.maoyan.testng.parameter.DataProviderTest" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MultiThreadOnAnnotation" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Chapter5" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.maoyan.testng.multiThread.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.maoyan.testng.multiThread" />
-      <option name="MAIN_CLASS_NAME" value="com.maoyan.testng.multiThread.MultiThreadOnAnnotation" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TimeOutTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Chapter5" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.maoyan.testng.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.maoyan.testng" />
-      <option name="MAIN_CLASS_NAME" value="com.maoyan.testng.TimeOutTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -270,11 +562,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TimeOutTest" />
-        <item itemvalue="TestNG.D:/IntelliJ IDEA/IDEA_Projects/Java接口自动化测试-课程代码/AutoTest/Chapter5/src/main/resources/MultiThreadOnXml.xml" />
-        <item itemvalue="TestNG.MultiThreadOnAnnotation" />
-        <item itemvalue="TestNG.DataProviderTest" />
-        <item itemvalue="TestNG.DataProviderTest.test1" />
+        <item itemvalue="TestNG.D:/IntelliJ IDEA/IDEA_Projects/Java接口自动化测试-课程代码/AutoTest/Chapter12/src/main/resources/testng.xml" />
+        <item itemvalue="Spring Boot.Application" />
+        <item itemvalue="Application.mybatisApplication" />
+        <item itemvalue="Spring Boot.mybatisApplication" />
+        <item itemvalue="Spring Boot.SpringBootApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -290,46 +582,65 @@
       <updated>1588845234470</updated>
       <workItem from="1588845236799" duration="3905000" />
       <workItem from="1588907349176" duration="8914000" />
-      <workItem from="1588994588676" duration="6918000" />
+      <workItem from="1588994588676" duration="17707000" />
+      <workItem from="1589196691665" duration="4389000" />
+      <workItem from="1589255950850" duration="2292000" />
+      <workItem from="1589361875680" duration="533000" />
+      <workItem from="1589369911882" duration="5735000" />
+      <workItem from="1589423516968" duration="2936000" />
+      <workItem from="1589876252375" duration="3692000" />
+      <workItem from="1589941987453" duration="8979000" />
+      <workItem from="1590024930777" duration="2800000" />
+      <workItem from="1590029606546" duration="16472000" />
+      <workItem from="1590652234552" duration="8068000" />
+      <workItem from="1590804426406" duration="5986000" />
+      <workItem from="1592190692491" duration="15803000" />
+      <workItem from="1592271269551" duration="6758000" />
+      <workItem from="1592293352518" duration="11795000" />
+      <workItem from="1592356584085" duration="26762000" />
+      <workItem from="1592446379284" duration="9202000" />
+      <workItem from="1592532803877" duration="4929000" />
+      <workItem from="1594907252097" duration="7000" />
+      <workItem from="1594907825309" duration="1491000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="D__IntelliJ_IDEA_IDEA_Projects_Java接口自动化测试-课程代码_AutoTest_Chapter5_src_main_resources_MultiThreadOnXml_xml - 2020.05.09 at 12h 54m 24s.xml">
-      <configuration name="D:/IntelliJ IDEA/IDEA_Projects/Java接口自动化测试-课程代码/AutoTest/Chapter5/src/main/resources/MultiThreadOnXml.xml" configurationId="TestNG" />
+    <history-entry file="D__IntelliJ_IDEA_IDEA_Projects_Java接口自动化测试-课程代码_AutoTest_Chapter12_src_main_resources_testng_xml - 2020.06.17 at 22h 40m 22s.xml">
+      <configuration name="D:/IntelliJ IDEA/IDEA_Projects/Java接口自动化测试-课程代码/AutoTest/Chapter12/src/main/resources/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="D__IntelliJ_IDEA_IDEA_Projects_Java接口自动化测试-课程代码_AutoTest_Chapter5_src_main_resources_MultiThreadOnXml_xml - 2020.05.09 at 12h 56m 08s.xml">
-      <configuration name="D:/IntelliJ IDEA/IDEA_Projects/Java接口自动化测试-课程代码/AutoTest/Chapter5/src/main/resources/MultiThreadOnXml.xml" configurationId="TestNG" />
+    <history-entry file="D__IntelliJ_IDEA_IDEA_Projects_Java接口自动化测试-课程代码_AutoTest_Chapter12_src_main_resources_testng_xml - 2020.06.17 at 22h 41m 35s.xml">
+      <configuration name="D:/IntelliJ IDEA/IDEA_Projects/Java接口自动化测试-课程代码/AutoTest/Chapter12/src/main/resources/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="D__IntelliJ_IDEA_IDEA_Projects_Java接口自动化测试-课程代码_AutoTest_Chapter5_src_main_resources_MultiThreadOnXml_xml - 2020.05.09 at 12h 57m 02s.xml">
-      <configuration name="D:/IntelliJ IDEA/IDEA_Projects/Java接口自动化测试-课程代码/AutoTest/Chapter5/src/main/resources/MultiThreadOnXml.xml" configurationId="TestNG" />
+    <history-entry file="D__IntelliJ_IDEA_IDEA_Projects_Java接口自动化测试-课程代码_AutoTest_Chapter12_src_main_resources_testng_xml - 2020.06.17 at 22h 42m 32s.xml">
+      <configuration name="D:/IntelliJ IDEA/IDEA_Projects/Java接口自动化测试-课程代码/AutoTest/Chapter12/src/main/resources/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="D__IntelliJ_IDEA_IDEA_Projects_Java接口自动化测试-课程代码_AutoTest_Chapter5_src_main_resources_MultiThreadOnXml_xml - 2020.05.09 at 12h 59m 45s.xml">
-      <configuration name="D:/IntelliJ IDEA/IDEA_Projects/Java接口自动化测试-课程代码/AutoTest/Chapter5/src/main/resources/MultiThreadOnXml.xml" configurationId="TestNG" />
+    <history-entry file="D__IntelliJ_IDEA_IDEA_Projects_Java接口自动化测试-课程代码_AutoTest_Chapter12_src_main_resources_testng_xml - 2020.06.18 at 10h 15m 04s.xml">
+      <configuration name="D:/IntelliJ IDEA/IDEA_Projects/Java接口自动化测试-课程代码/AutoTest/Chapter12/src/main/resources/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="D__IntelliJ_IDEA_IDEA_Projects_Java接口自动化测试-课程代码_AutoTest_Chapter5_src_main_resources_MultiThreadOnXml_xml - 2020.05.09 at 13h 04m 07s.xml">
-      <configuration name="D:/IntelliJ IDEA/IDEA_Projects/Java接口自动化测试-课程代码/AutoTest/Chapter5/src/main/resources/MultiThreadOnXml.xml" configurationId="TestNG" />
+    <history-entry file="D__IntelliJ_IDEA_IDEA_Projects_Java接口自动化测试-课程代码_AutoTest_Chapter12_src_main_resources_testng_xml - 2020.06.18 at 10h 38m 54s.xml">
+      <configuration name="D:/IntelliJ IDEA/IDEA_Projects/Java接口自动化测试-课程代码/AutoTest/Chapter12/src/main/resources/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="D__IntelliJ_IDEA_IDEA_Projects_Java接口自动化测试-课程代码_AutoTest_Chapter5_src_main_resources_MultiThreadOnXml_xml - 2020.05.09 at 13h 04m 28s.xml">
-      <configuration name="D:/IntelliJ IDEA/IDEA_Projects/Java接口自动化测试-课程代码/AutoTest/Chapter5/src/main/resources/MultiThreadOnXml.xml" configurationId="TestNG" />
+    <history-entry file="D__IntelliJ_IDEA_IDEA_Projects_Java接口自动化测试-课程代码_AutoTest_Chapter12_src_main_resources_testng_xml - 2020.06.18 at 10h 56m 42s.xml">
+      <configuration name="D:/IntelliJ IDEA/IDEA_Projects/Java接口自动化测试-课程代码/AutoTest/Chapter12/src/main/resources/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="D__IntelliJ_IDEA_IDEA_Projects_Java接口自动化测试-课程代码_AutoTest_Chapter5_src_main_resources_MultiThreadOnXml_xml - 2020.05.09 at 13h 07m 02s.xml">
-      <configuration name="D:/IntelliJ IDEA/IDEA_Projects/Java接口自动化测试-课程代码/AutoTest/Chapter5/src/main/resources/MultiThreadOnXml.xml" configurationId="TestNG" />
+    <history-entry file="D__IntelliJ_IDEA_IDEA_Projects_Java接口自动化测试-课程代码_AutoTest_Chapter12_src_main_resources_testng_xml - 2020.06.18 at 10h 57m 51s.xml">
+      <configuration name="D:/IntelliJ IDEA/IDEA_Projects/Java接口自动化测试-课程代码/AutoTest/Chapter12/src/main/resources/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="D__IntelliJ_IDEA_IDEA_Projects_Java接口自动化测试-课程代码_AutoTest_Chapter5_src_main_resources_MultiThreadOnXml_xml - 2020.05.09 at 13h 07m 40s.xml">
-      <configuration name="D:/IntelliJ IDEA/IDEA_Projects/Java接口自动化测试-课程代码/AutoTest/Chapter5/src/main/resources/MultiThreadOnXml.xml" configurationId="TestNG" />
+    <history-entry file="D__IntelliJ_IDEA_IDEA_Projects_Java接口自动化测试-课程代码_AutoTest_Chapter12_src_main_resources_testng_xml - 2020.06.18 at 11h 00m 51s.xml">
+      <configuration name="D:/IntelliJ IDEA/IDEA_Projects/Java接口自动化测试-课程代码/AutoTest/Chapter12/src/main/resources/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="D__IntelliJ_IDEA_IDEA_Projects_Java接口自动化测试-课程代码_AutoTest_Chapter5_src_main_resources_MultiThreadOnXml_xml - 2020.05.09 at 13h 08m 03s.xml">
-      <configuration name="D:/IntelliJ IDEA/IDEA_Projects/Java接口自动化测试-课程代码/AutoTest/Chapter5/src/main/resources/MultiThreadOnXml.xml" configurationId="TestNG" />
+    <history-entry file="D__IntelliJ_IDEA_IDEA_Projects_Java接口自动化测试-课程代码_AutoTest_Chapter12_src_main_resources_testng_xml - 2020.06.18 at 11h 14m 05s.xml">
+      <configuration name="D:/IntelliJ IDEA/IDEA_Projects/Java接口自动化测试-课程代码/AutoTest/Chapter12/src/main/resources/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TimeOutTest - 2020.05.09 at 13h 11m 40s.xml">
-      <configuration name="TimeOutTest" configurationId="TestNG" />
+    <history-entry file="D__IntelliJ_IDEA_IDEA_Projects_Java接口自动化测试-课程代码_AutoTest_Chapter12_src_main_resources_testng_xml - 2020.06.18 at 11h 50m 40s.xml">
+      <configuration name="D:/IntelliJ IDEA/IDEA_Projects/Java接口自动化测试-课程代码/AutoTest/Chapter12/src/main/resources/testng.xml" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19737000" />
+    <option name="totallyTimeSpent" value="169155000" />
   </component>
-  <component name="TodoView">
+  <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
     </todo-panel>
@@ -341,257 +652,421 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32575756" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3318182" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5681445" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49830222" weight="0.6223317" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39901477" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32840723" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32688928" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32840723" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32688928" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32676518" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32840723" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32676518" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.5599343" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5016978" side_tool="true" weight="0.85385877" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.05272408" />
+      <window_info anchor="bottom" id="Spring" order="13" weight="0.32688928" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.32688928" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32954547" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Maven" order="6" weight="0.36969697" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Chapter5/pom.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.10/httpclient-4.5.10.jar!/org/apache/http/conn/ssl/DefaultHostnameVerifier.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+        <state relative-caret-position="94">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter5/src/main/resources/suite.xml.tld" />
-    <entry file="file://$PROJECT_DIR$/Chapter5/src/main/java/com/maoyan/testng/IgnoreTest.java">
+    <entry file="file://$PROJECT_DIR$/Chapter12/src/main/java/com/maoyan/utils/DatabaseUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+        <state relative-caret-position="300">
+          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
           <folding>
-            <element signature="e#131#132#0" expanded="true" />
-            <element signature="e#167#168#0" expanded="true" />
-            <element signature="e#212#213#0" expanded="true" />
-            <element signature="e#248#249#0" expanded="true" />
-            <element signature="e#342#343#0" expanded="true" />
-            <element signature="e#378#379#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter5/src/main/java/com/maoyan/testng/suite/LoginTest.java">
+    <entry file="file://$PROJECT_DIR$/mylog.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1260" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter12/src/main/java/com/maoyan/model/GetUserInfoCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter7/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter7/startup1.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter7/startupGet.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-          <folding>
-            <element signature="e#93#94#0" expanded="true" />
-            <element signature="e#129#130#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter5/src/main/java/com/maoyan/testng/suite/SuiteConfig.java">
+    <entry file="file://$PROJECT_DIR$/Chapter7/startupPost.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter7/startupWithCookies.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#91#92#0" expanded="true" />
-            <element signature="e#127#128#0" expanded="true" />
-            <element signature="e#181#182#0" expanded="true" />
-            <element signature="e#217#218#0" expanded="true" />
-            <element signature="e#266#267#0" expanded="true" />
-            <element signature="e#302#303#0" expanded="true" />
-            <element signature="e#354#355#0" expanded="true" />
-            <element signature="e#390#391#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-260">
+          <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter5/src/main/java/com/maoyan/testng/suite/PayTest.java">
+    <entry file="file://$PROJECT_DIR$/Chapter7/startupWithHeaders.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="9" lean-forward="true" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
-          <folding>
-            <element signature="e#86#87#0" expanded="true" />
-            <element signature="e#132#133#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="300">
+          <caret line="15" column="15" lean-forward="true" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter5/src/main/resources/suite.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="68" lean-forward="true" selection-start-line="12" selection-start-column="68" selection-end-line="12" selection-end-column="68" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/Chapter7/startupWithRedirect.json">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter5/src/main/java/com/maoyan/testng/groups/GroupsOnClass2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="54" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
-          <folding>
-            <element signature="e#159#160#0" expanded="true" />
-            <element signature="e#195#196#0" expanded="true" />
-            <element signature="e#254#255#0" expanded="true" />
-            <element signature="e#290#291#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/Chapter9/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter5/src/main/java/com/maoyan/testng/groups/GroupsOnClass3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-          <folding>
-            <element signature="e#155#156#0" expanded="true" />
-            <element signature="e#191#192#0" expanded="true" />
-            <element signature="e#250#251#0" expanded="true" />
-            <element signature="e#286#287#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter5/src/main/java/com/maoyan/testng/BasicAnnotation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter5/src/main/java/com/maoyan/testng/groups/GroupsOnMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter5/src/main/java/com/maoyan/testng/ExpectedException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
-          <folding>
-            <element signature="e#246#247#0" expanded="true" />
-            <element signature="e#282#283#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter5/src/main/resources/groupsOnClass.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter5/src/main/java/com/maoyan/testng/groups/GroupsOnClass1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter5/src/main/java/com/maoyan/testng/parameter/ParameterTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#124#125#0" expanded="true" />
-            <element signature="e#174#175#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter5/src/main/java/com/maoyan/testng/DependTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" column="6" lean-forward="true" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
-          <folding>
-            <element signature="e#247#248#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter5/src/main/resources/parameter.xml">
+    <entry file="file://$PROJECT_DIR$/Chapter9/src/main/java/com/maoyan/httpclient/Basic/MyHttpClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter5/src/main/java/com/maoyan/testng/multiThread/MultiThreadOnAnnotation.java">
+    <entry file="file://$PROJECT_DIR$/Chapter9/src/main/java/com/maoyan/httpclient/cookies/MyCookiesForGet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
+        <state relative-caret-position="200">
+          <caret line="40" column="47" lean-forward="true" selection-start-line="40" selection-start-column="47" selection-end-line="40" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter9/src/main/java/com/maoyan/httpclient/cookies/MyCookiesForPost.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1364">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter10/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter10/src/main/java/SpringBootApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter10/src/main/java/com/maoyan/bean/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter10/src/main/java/com/maoyan/Config/SwaggerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="19" column="54" lean-forward="true" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter10/src/main/java/com/maoyan/helloSpringBoot/SampleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
           <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter5/src/main/resources/MultiThreadOnXml.xml">
+    <entry file="file://$PROJECT_DIR$/Chapter10/src/main/java/com/maoyan/Server/MyGetController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+        <state relative-caret-position="420">
+          <caret line="63" column="29" lean-forward="true" selection-start-line="63" selection-start-column="29" selection-end-line="63" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter5/src/main/java/com/maoyan/testng/multiThread/MultiThreadOnXml.java">
+    <entry file="file://$PROJECT_DIR$/Chapter10/src/main/java/com/maoyan/Server/MyPostController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-          <folding>
-            <element signature="e#143#144#0" expanded="true" />
-            <element signature="e#218#219#0" expanded="true" />
-            <element signature="e#252#253#0" expanded="true" />
-            <element signature="e#327#328#0" expanded="true" />
-            <element signature="e#373#374#0" expanded="true" />
-            <element signature="e#448#449#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-464">
+          <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter5/src/main/java/com/maoyan/testng/parameter/DataProviderTest.java">
+    <entry file="file://$PROJECT_DIR$/Chapter11/src/main/resources/application.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="220">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter11/src/main/resources/mapper/mysql.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter11/src/main/resources/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter11/src/main/java/com/maoyan/controller/mybatiscontroller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="20" column="71" selection-start-line="20" selection-start-column="71" selection-end-line="20" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter11/src/main/java/com/maoyan/mybatis/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter11/src/main/java/com/maoyan/mybatisApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter12/src/main/resources/databaseConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter12/src/main/java/com/maoyan/utils/ConfigFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-164">
+          <caret line="11" column="52" lean-forward="true" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#125#126#0" expanded="true" />
-            <element signature="e#161#162#0" expanded="true" />
-            <element signature="e#673#674#0" expanded="true" />
-            <element signature="e#709#710#0" expanded="true" />
-            <element signature="e#881#882#0" expanded="true" />
-            <element signature="e#957#958#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter5/src/main/java/com/maoyan/testng/TimeOutTest.java">
+    <entry file="file://$PROJECT_DIR$/Chapter12/src/main/java/com/maoyan/model/AddUserCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter12/src/main/java/com/maoyan/config/TestConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter12/src/main/java/com/maoyan/config/ExtentTestNGIReporterListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2360">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter12/src/main/java/com/maoyan/cases/LoginTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1024">
+          <caret line="15" column="27" lean-forward="true" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter12/src/main/java/com/maoyan/cases/UpdateUserInfoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-120">
+          <caret line="13" column="35" lean-forward="true" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter12/src/main/java/com/maoyan/cases/GetUserInfoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="636">
+          <caret line="60" column="41" selection-start-line="60" selection-start-column="41" selection-end-line="60" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter12/src/main/java/com/maoyan/cases/AddUserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="57" column="50" selection-start-line="57" selection-start-column="39" selection-end-line="57" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter13/src/main/resources/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="42" lean-forward="true" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter13/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="66" selection-start-line="12" selection-start-column="66" selection-end-line="12" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter13/src/main/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter13/src/main/java/com/maoyan/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter13/src/main/resources/mapper/mysql.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="27" column="41" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter13/src/main/java/com/maoyan/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter13/src/main/java/com/maoyan/controller/userManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1340">
+          <caret line="82" column="39" selection-start-line="82" selection-start-column="39" selection-end-line="82" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter12/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter12/src/main/java/com/maoyan/cases/GetUserInfoListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="37" column="57" selection-start-line="37" selection-start-column="57" selection-end-line="37" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter13/src/main/java/com/maoyan/config/SwaggerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter12/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+          <caret line="88" column="40" selection-start-line="88" selection-start-column="40" selection-end-line="88" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter12/src/main/resources/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter12/src/main/resources/mapper/MySQLMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="516">
+          <caret line="42" column="46" selection-start-line="42" selection-start-column="46" selection-end-line="42" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter13/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-119">
+          <caret line="81" column="40" selection-start-line="81" selection-start-column="40" selection-end-line="81" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -612,10 +1087,11 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
+          <last-edited>No facets are configured</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.4551887" />
               </list>
             </option>
           </splitter-proportions>
@@ -626,7 +1102,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.4551887" />
               </list>
             </option>
           </splitter-proportions>
@@ -646,7 +1122,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Chapter5</last-edited>
+          <last-edited>AutoTest</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -659,10 +1135,11 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Maven: com.aventstack:extentreports:3.0.6</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.4551887" />
               </list>
             </option>
           </splitter-proportions>

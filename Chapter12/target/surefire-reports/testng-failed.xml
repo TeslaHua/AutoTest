@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [用户管理系统测试套件]">
+  <listeners>
+    <listener class-name="com.maoyan.config.ExtentTestNGIReporterListener"/>
+  </listeners>
+  <test name="用户管理系统测试用例(failed)">
+    <classes>
+      <class name="com.maoyan.cases.AddUserTest">
+        <methods>
+          <include name="addUser"/>
+        </methods>
+      </class> <!-- com.maoyan.cases.AddUserTest -->
+      <class name="com.maoyan.cases.LoginTest">
+        <methods>
+          <include name="loginFalse"/>
+          <include name="loginTrue"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.maoyan.cases.LoginTest -->
+      <class name="com.maoyan.cases.GetUserInfoListTest">
+        <methods>
+          <include name="getUserListInfo"/>
+        </methods>
+      </class> <!-- com.maoyan.cases.GetUserInfoListTest -->
+      <class name="com.maoyan.cases.GetUserInfoTest">
+        <methods>
+          <include name="getUserInfo"/>
+        </methods>
+      </class> <!-- com.maoyan.cases.GetUserInfoTest -->
+      <class name="com.maoyan.cases.UpdateUserInfoTest">
+        <methods>
+          <include name="deleteUser"/>
+          <include name="updateUserInfo"/>
+        </methods>
+      </class> <!-- com.maoyan.cases.UpdateUserInfoTest -->
+    </classes>
+  </test> <!-- 用户管理系统测试用例(failed) -->
+</suite> <!-- Failed suite [用户管理系统测试套件] -->

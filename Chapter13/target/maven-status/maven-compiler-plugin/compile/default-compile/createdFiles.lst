@@ -1,0 +1,4 @@
+com\maoyan\Application.class
+com\maoyan\controller\userManager.class
+com\maoyan\model\User.class
+com\maoyan\config\SwaggerConfig.class

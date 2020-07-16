@@ -1,0 +1,17 @@
+com\maoyan\cases\GetUserInfoListTest.class
+com\maoyan\utils\DatabaseUtil.class
+com\maoyan\model\LoginCase.class
+com\maoyan\model\UpdateUserInfoCase.class
+com\maoyan\cases\UpdateUserInfoTest.class
+com\maoyan\config\ExtentTestNGIReporterListener$1.class
+com\maoyan\model\GetUserListCase.class
+com\maoyan\model\AddUserCase.class
+com\maoyan\cases\LoginTest.class
+com\maoyan\model\InterfaceName.class
+com\maoyan\model\User.class
+com\maoyan\model\GetUserInfoCase.class
+com\maoyan\config\TestConfig.class
+com\maoyan\utils\ConfigFile.class
+com\maoyan\cases\GetUserInfoTest.class
+com\maoyan\cases\AddUserTest.class
+com\maoyan\config\ExtentTestNGIReporterListener.class
